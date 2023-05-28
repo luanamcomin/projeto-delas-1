@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-
 const clienteSchema = new mongoose.Schema(
     {
         id: { type: Number },
@@ -15,3 +14,7 @@ const clienteSchema = new mongoose.Schema(
         youliked: { type: Boolean }
     }
 )
+
+const clientes = mongoose.model("clientes", clienteSchema);
+
+module.exports = clientes;

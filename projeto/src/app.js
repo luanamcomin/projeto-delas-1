@@ -3,13 +3,15 @@ const express = require("express");
 const index = require("./routes/index");
 const db = require ("./config/dbConnect.js");
 const empreendedoras = require("./models/empreendedoras");
+const clientes = require("./models/clientes");
 const app = express();
 
 
 
 app.use(express.json());
 app.use("/", index);
-app.use("/empreendedoras" , empreendedoras);
+app.use("/empreendedoras" , empreendedoras); //rota de empreendedoras
+app.use("/clientes" , clientes); //rota de clientes
 
 //sintaxe de conexão
 db.on("error", console.log.bind(console, 'Erro de conexão'))
