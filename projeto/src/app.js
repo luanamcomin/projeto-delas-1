@@ -1,9 +1,9 @@
 //importação
 const express = require("express");
 const index = require("./routes/index");
-const db = require ("./config/dbConnect.js");
-const empreendedoras = require("./models/empreendedoras");
-const clientes = require("./models/clientes");
+const db = require("./config/dbConnect.js");
+const empreendedoras = require("./routes/empreendedora");
+const clientes = require("./routes/cliente");
 const app = express();
 
 
