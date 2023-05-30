@@ -5,6 +5,8 @@ const router = express.Router();
 
 router
 .get("/", EmpreendedoraController.getAllEmpreendedoras)
-.post("/", EmpreendedoraController.createEmpreendedoras)
+.post("/", EmpreendedoraController.createEmpreendedora)
+.put("/:id", EmpreendedoraController.updateEmpreendedora)
+.delete("/:id", EmpreendedoraController.deleteEmpreendedora)
 
 module.exports = router
