@@ -2,7 +2,7 @@ const clientes = require("../models/clientes.js");
 
 class ClienteController {
 
-  static getAllclientes = (req, res) => {
+  static getAllClientes = (req, res) => {
     clientes.find((err, clientes) => {
       res.status(200).json(clientes);
     })

@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+
 const empreendedoraSchema = new mongoose.Schema(
     {
         id: { type: String },
@@ -21,4 +22,3 @@ const empreendedoraSchema = new mongoose.Schema(
 const empreendedoras = mongoose.model("empreendedoras", empreendedoraSchema);
 
 module.exports = empreendedoras;
-

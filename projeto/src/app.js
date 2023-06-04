@@ -6,8 +6,6 @@ const empreendedoras = require("./routes/empreendedora");
 const clientes = require("./routes/cliente");
 const app = express();
 
-
-
 app.use(express.json());
 app.use("/", index);
 app.use("/empreendedoras" , empreendedoras); //rota de empreendedoras
