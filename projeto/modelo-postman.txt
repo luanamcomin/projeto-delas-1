@@ -1,0 +1,27 @@
+{
+    "nomeDaEmpreendedora": " ",
+    "nomeDoEmpreendimento": " ",
+    "cpfCnpj": " ",
+    "redeSocial": [" "],
+    "site": " ",
+    "whatsapp": " ",
+    "email": " ",
+    "nicho": [" "],
+    "categoria": [" "],
+    "tag": [" "],
+    "endereco": {
+        "rua": "Apolo",
+        "numero": "235",
+        "bairro": "Bairro do Recife",
+        "cidade": "Recife",
+        "complemento": "proximo a polícia federal"
+    },
+    "descricao": " ",
+    "youLiked": true
+}
+
+
+1- Criar Modelo na pasta models.
+2- Criar as requisições e funções na pasta controllers.
+3- Criar as rotas na pasta routes.
+4- Criar endpoint de clientes no arquivo app.js
